@@ -1,0 +1,169 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.footer {
+    background-color: #1C1018;
+    padding: 20px 5px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    margin-top: 30px;
+    width: 100%;
+
+
+
+    & h6 {
+        font-size: 30px;
+        font-weight: 700;
+        text-align: center;
+        color: #fff;
+
+    }
+
+}
+
+.navbar {
+    background-color: #255957;
+    padding: 20px 10px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    position: -webkit-sticky;
+
+    & ul {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        & li {
+            list-style: none;
+
+            & a {
+                text-decoration: none;
+                font-size: 20px;
+                font-weight: 700;
+                color: #fff;
+            }
+        }
+    }
+}
+
+.main_home {
+    background-color: #EEEBD3;
+    height: 100vh;
+
+}
+
+.home {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 60px 100px;
+
+    & h1,
+    h2 {
+        text-align: center;
+        margin: 20px 0;
+    }
+}
+
+
+.card_lay {
+
+    text-align: center;
+    margin: 50px auto !important;
+    padding: 20px;
+    background-color: #f7f7f7;
+    border-radius: 10px;
+    max-width: 500px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card_header {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: none;
+    height: 100px;
+}
+
+.card_button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #080357;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.chat_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+    height: 255px;
+}
+
+.messages {
+    width: 100%;
+    max-height: 300px;
+    overflow-y: scroll;
+    margin-bottom: 15px;
+}
+
+.message {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    max-width: 80%;
+    word-wrap: break-word;
+    text-align: left;
+}
+
+.user_msg {
+    background-color: #cce5ff;
+    align-self: flex-end;
+}
+
+.system_msg {
+    background-color: #d4edda;
+    align-self: flex-start;
+}
+
+.input {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+}
+
+.card_button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #080357;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
