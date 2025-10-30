@@ -41,8 +41,8 @@ module.exports = {
       filename: "remoteEntry.js",
 
     remotes: {
-        chatapp: "chatapp@http://localhost:3006/remoteEntry.js",
-        emailapp: "emailapp@http://localhost:3007/remoteEntry.js",
+        chatapp: "chatapp@https://mellifluous-empanada-9bbc4a.netlify.app/remoteEntry.js",
+        emailapp: "emailapp@https://guileless-baklava-86599f.netlify.app/remoteEntry.js",
         },
         
       exposes: {
